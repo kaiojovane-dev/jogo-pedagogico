@@ -34,10 +34,6 @@ build/
 
 coverage/
 
-# Arquivos temporários do Antigravity
-
-.antigravity/
-
-# Instruções locais do Antigravity
+# Arquivos locais
 
 AGENTS.md
