@@ -7,11 +7,18 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Desafio das Palavras</h1>
-  </header>
-
   <main id="app">
+    <section class="tela-inicial" id="tela-inicial" aria-labelledby="titulo-jogo">
+      <header class="tela-inicial__cabecalho">
+        <h1 id="titulo-jogo" class="tela-inicial__titulo">Desafio das Palavras</h1>
+      </header>
+
+      <div class="tela-inicial__ilustracao" aria-hidden="true"></div>
+
+      <div class="tela-inicial__acoes">
+        <button type="button" id="btn-jogar" class="btn-principal">Jogar</button>
+      </div>
+    </section>
   </main>
 
   <script type="module" src="js/app.js"></script>
