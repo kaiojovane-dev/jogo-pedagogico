@@ -1,136 +1,161 @@
 # Desafio das Palavras
 
-Jogo educativo de alfabetização voltado para crianças de 6 a 7 anos. A proposta é trabalhar dificuldades comuns de leitura e escrita — como trocas entre letras parecidas — dentro de um formato de jogo, com missões, personagens e recompensas.
+Jogo educativo de alfabetização voltado principalmente para crianças de 6 a 7 anos. A proposta é trabalhar leitura e escrita por meio de atividades interativas, missões, personagens e recompensas.
 
 ## Sobre o projeto
 
-Muitas crianças em fase de alfabetização confundem letras que têm sons parecidos na hora de ler ou escrever. Trocas como CH/X, S/Ç, G/J, entre outras, são bastante comuns e podem persistir se não forem trabalhadas com atenção.
+O **Desafio das Palavras** é um jogo educativo desenvolvido como projeto acadêmico.
 
-O Desafio das Palavras é um jogo pensado para ajudar nesse processo. Em vez de exercícios soltos numa folha, a criança entra numa aventura onde cada atividade faz parte de uma missão. Ela escolhe o que quer fazer, resolve os desafios, recebe explicações sobre seus acertos e erros, e vai avançando no jogo conforme pratica.
+A proposta é transformar atividades de alfabetização em desafios interativos. A criança participa de missões, resolve atividades, recebe feedback sobre suas respostas e acompanha seu progresso ao longo do jogo.
 
-O público principal são crianças por volta dos 6 a 7 anos, mas o jogo também é pensado para ser usado por professores em sala de aula e por famílias em casa.
+Além do uso individual, o projeto considera situações de uso em sala de aula e em casa.
 
 ## Objetivo
 
-O objetivo principal é transformar exercícios de alfabetização em atividades que a criança queira fazer, sem que pareça uma prova ou um dever de casa.
+O objetivo principal é criar uma experiência de aprendizagem que combine atividades de alfabetização com elementos de jogos.
 
-Um ponto importante: o jogo não vai apenas dizer "certo" ou "errado". A ideia é que, a cada resposta, a criança entenda **por que** aquela é a resposta certa e **por que** a outra opção não funciona. Esse feedback faz parte do aprendizado e é tão importante quanto a atividade em si.
+Um dos princípios do projeto é que o feedback não se limite a informar se uma resposta está certa ou errada. Quando aplicável, o jogo deverá apresentar uma explicação ou orientação que ajude a criança a compreender a atividade.
+
+## Público
+
+O público principal é composto por crianças de aproximadamente 6 a 7 anos em processo de alfabetização.
+
+O projeto também considera professores e familiares como possíveis usuários de apoio.
 
 ## Como funciona
 
-O fluxo básico do jogo segue essa sequência:
+O fluxo planejado do jogo é:
 
-1. A criança escolhe uma missão entre as disponíveis.
-2. Resolve a atividade proposta (completar palavras, escolher a letra correta, etc.).
+1. A criança escolhe uma missão.
+2. Resolve a atividade proposta.
 3. Recebe um retorno sobre sua resposta.
-4. Vê uma explicação sobre o motivo da resposta estar certa ou errada.
-5. Ganha recompensas pelo progresso.
-6. Continua para a próxima atividade ou escolhe outra missão.
+4. Quando aplicável, recebe uma explicação ou orientação.
+5. Obtém recompensas pelo progresso.
+6. Continua a missão ou escolhe outra atividade.
 
 ## Conteúdos trabalhados
 
-Os conteúdos previstos para o jogo envolvem trocas de letras que costumam gerar confusão durante a alfabetização:
+Os conteúdos inicialmente planejados incluem:
 
-- P e B
-- T e D
-- F e V
-- CH e X
-- R e RR
-- G e J
+* P e B
+* T e D
+* F e V
+* CH e X
+* R e RR
+* G e J
 
-Novos conteúdos podem ser adicionados ao longo do desenvolvimento do projeto.
-
-## Sistema de progressão
-
-Os desafios não seguem necessariamente uma ordem fixa. A criança pode acessar diferentes missões e conteúdos conforme quiser.
-
-O jogo acompanha o desempenho ao longo das atividades e pode direcionar a criança para conteúdos onde ela demonstrou mais dificuldade, mas sem impedir que ela explore outras áreas.
+Novos conteúdos poderão ser adicionados durante o desenvolvimento, conforme as necessidades e decisões da equipe.
 
 ## Adaptação às dificuldades
 
-O jogo registra os erros que a criança comete ao longo das atividades. Com base nesses registros, ele consegue identificar padrões.
+Uma das funcionalidades planejadas é registrar o desempenho da criança durante as atividades.
 
-Por exemplo: se uma criança erra repetidamente em atividades que envolvem P e B, o jogo pode sugerir mais atividades desse tipo nas próximas sessões. A lógica é simples — quanto mais dificuldade em um conteúdo, mais vezes ele aparece para ser praticado.
+Esses registros poderão ser utilizados para identificar conteúdos nos quais a criança apresenta maior dificuldade e sugerir atividades relacionadas a esses conteúdos.
 
-Essa adaptação acontece dentro do próprio jogo, com base no histórico de respostas da criança.
+Essa funcionalidade ainda faz parte do planejamento e será implementada e validada durante o desenvolvimento.
 
 ## Personagens
 
-Os personagens fazem parte da aventura e ajudam a conduzir a experiência. Eles podem:
+Os personagens fazem parte da proposta de experiência do jogo e poderão:
 
-- Apresentar as missões e explicar o que precisa ser feito.
-- Dar dicas durante as atividades.
-- Reagir aos resultados (acertos e erros).
-- Ajudar nas explicações sobre as respostas.
+* apresentar missões;
+* explicar atividades;
+* fornecer dicas;
+* reagir aos resultados;
+* auxiliar na apresentação dos feedbacks.
 
-Os personagens servem para tornar a interação mais próxima e menos mecânica.
+A utilização e o comportamento dos personagens serão definidos durante o desenvolvimento da interface e das atividades.
 
 ## Recompensas
 
-O sistema de recompensas inclui:
+O sistema de recompensas planejado inclui:
 
-- **Pontos** ganhos ao completar atividades.
-- **Conquistas** por marcos alcançados (como completar todas as missões de um conteúdo).
-- **Itens, skins e acessórios** que a criança pode desbloquear e usar.
-- **Desafios especiais** que aparecem conforme o progresso.
+* **Pontos** obtidos durante as atividades;
+* **Conquistas** relacionadas ao progresso;
+* **Itens, skins e acessórios** para personalização;
+* **Desafios especiais** desbloqueados durante o progresso.
 
-Não haverá ranking público entre crianças. As recompensas são individuais.
+Não está previsto um ranking público entre crianças. As recompensas são individuais.
 
 ## Áudio
 
-As palavras trabalhadas nas atividades poderão ter reprodução de áudio, para que a criança associe a escrita com a pronúncia. Isso é especialmente útil nas trocas de letras com sons parecidos.
+O jogo poderá utilizar reprodução de áudio para auxiliar na associação entre palavras escritas e sua pronúncia.
 
-O áudio é opcional. O jogo funciona normalmente sem som.
+O áudio será opcional e o jogo deverá continuar utilizável sem som.
 
 ## Uso em sala de aula
 
-A ideia é que professores possam usar o jogo como apoio durante as aulas de alfabetização. A criança pode jogar individualmente enquanto o professor acompanha, ou o jogo pode ser usado como atividade complementar.
+O projeto considera o uso como ferramenta de apoio em atividades de alfabetização.
 
-Funcionalidades específicas para professores — como painel de acompanhamento, contas de turma ou relatórios de desempenho — fazem parte do planejamento futuro, mas ainda não foram implementadas.
+Funcionalidades específicas para professores, como acompanhamento de alunos, turmas e relatórios, fazem parte do planejamento, mas ainda não estão implementadas.
 
 ## Uso em casa
 
-O jogo também pode ser usado fora da escola, permitindo que a criança continue praticando em casa.
+O jogo também poderá ser utilizado fora do ambiente escolar.
 
-A sincronização de progresso entre dispositivos diferentes (escola e casa, por exemplo) é uma possibilidade prevista, mas ainda não está implementada.
+A sincronização de progresso entre diferentes dispositivos é uma possibilidade futura e não faz parte da implementação atual.
 
 ## Tecnologias
 
-O projeto está em fase inicial de desenvolvimento. As tecnologias serão definidas e listadas aqui conforme o projeto for sendo construído.
+A stack definida para o desenvolvimento inicial é:
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6+)**
+* **LocalStorage** para persistência local, quando necessário
+* **Git e GitHub** para controle de versão
+
+O projeto não utiliza um framework JavaScript no MVP. Novas tecnologias somente serão adicionadas quando houver uma necessidade definida pela equipe.
 
 ## Estrutura do projeto
 
-Estrutura atual do repositório:
+Estrutura inicial do repositório:
 
-```
+```text
 jogo-pedagogico/
 ├── .gitattributes
+├── .gitignore
+├── CONTRIBUTING.md
 └── README.md
 ```
 
-A estrutura vai crescer conforme o desenvolvimento avançar.
+A estrutura será ampliada conforme as funcionalidades forem implementadas.
 
 ## Desenvolvimento
 
-O projeto ainda está no início. Instruções de instalação e execução serão adicionadas quando houver código para rodar.
+O projeto está em fase inicial de desenvolvimento.
 
-## Próximos passos
+As instruções de execução serão adicionadas quando a primeira versão executável estiver disponível.
 
-Funcionalidades planejadas para as próximas etapas:
+As regras de contribuição e colaboração da equipe estão documentadas em [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-- [ ] Definição da stack e estrutura base do projeto
-- [ ] Primeiras atividades jogáveis (P/B, T/D)
-- [ ] Sistema de feedback com explicações
-- [ ] Personagens e interface da aventura
-- [ ] Sistema de pontos e recompensas
-- [ ] Reprodução de áudio nas palavras
-- [ ] Expansão das regiões do mapa
-- [ ] Novos mini-games
-- [ ] Sistema de revisão de conteúdos já praticados
-- [ ] Perfil do aluno com histórico
-- [ ] Modo professor com acompanhamento de progresso
-- [ ] Persistência de dados
-- [ ] Sincronização entre dispositivos
-- [ ] Mais conteúdos de alfabetização
+## Status
 
-Nenhuma dessas funcionalidades está implementada ainda. O projeto está em fase de planejamento e início de desenvolvimento.
+O projeto está em fase de planejamento e implementação inicial.
+
+### Planejamento
+
+* [ ] Definição da estrutura base
+* [ ] Primeiras atividades jogáveis
+* [ ] Sistema de feedback
+* [ ] Interface principal
+* [ ] Personagens
+* [ ] Sistema de pontos
+* [ ] Sistema de recompensas
+* [ ] Reprodução de áudio
+* [ ] Perfil do aluno
+* [ ] Registro de progresso
+* [ ] Adaptação às dificuldades
+* [ ] Expansão das atividades
+* [ ] Novos mini-games
+* [ ] Modo professor
+* [ ] Persistência de dados
+* [ ] Mais conteúdos de alfabetização
+
+Funcionalidades marcadas como planejamento ainda não estão implementadas.
+
+## Contribuição
+
+O desenvolvimento segue as regras descritas em [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+Alterações na branch `main` devem seguir o fluxo de revisão definido pela equipe.

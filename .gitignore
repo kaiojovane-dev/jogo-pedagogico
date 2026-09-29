@@ -1,0 +1,43 @@
+# Dependências
+
+node_modules/
+
+# Arquivos de ambiente
+
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração de editores
+
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+
+*.tmp
+*.temp
+*.log
+
+# Builds e arquivos gerados
+
+dist/
+build/
+
+# Cobertura de testes
+
+coverage/
+
+# Arquivos temporários do Antigravity
+
+.antigravity/
+
+# Instruções locais do Antigravity
+
+AGENTS.md
